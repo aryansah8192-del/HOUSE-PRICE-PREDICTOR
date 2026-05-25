@@ -1,20 +1,43 @@
 # HOUSE-PRICE-PREDICTOR
-A modular Machine Learning-based House Price Prediction System using XGBoost Regression with separate pipelines for data cleaning, feature engineering, visualization, model training, and evaluation.
+<h1 align="center">🏠 House Price Prediction System</h1>
 
-Features
-Data preprocessing and cleaning
-Missing value handling
-Feature engineering and encoding
-Outlier handling
-Correlation heatmap visualization
-XGBoost Regression model
-Model evaluation using:
-R² Score
-MAE
-MSE
-RMSE
-Modular project structure for scalability and maintainability
-Project Structure
+<p align="center">
+A modular Machine Learning project that predicts house prices using <b>XGBoost Regression</b>.
+</p>
+
+---
+
+## 🚀 Features
+
+✔️ Data Cleaning Pipeline  
+✔️ Feature Engineering  
+✔️ Missing Value Handling  
+✔️ Outlier Detection & Removal  
+✔️ Data Visualization  
+✔️ Correlation Heatmaps  
+✔️ XGBoost Regression Model  
+✔️ Model Evaluation Metrics  
+✔️ Modular Project Architecture  
+
+---
+
+## 🛠️ Tech Stack
+
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-AA0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge"/>
+</p>
+
+---
+
+## 📂 Project Structure
+
+```bash
 HOUSE-PRICE-PREDICTOR/
 │
 ├── data/
@@ -30,7 +53,13 @@ HOUSE-PRICE-PREDICTOR/
 │
 ├── main.py
 └── README.md
-Workflow
+```
+
+---
+
+## ⚙️ Workflow
+
+```bash
 main.py
    ↓
 data_cleaning.py
@@ -42,45 +71,75 @@ visualization.py
 model_training.py
    ↓
 evaluation.py
-Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
-Model Used
-XGBoost Regressor
+```
 
-The project uses the XGBoost Regression algorithm for predicting house prices based on multiple property-related features.
+---
 
-Evaluation Metrics
+## 📊 Model Used
 
-The model performance is evaluated using:
+### XGBoost Regressor
 
-R² Score
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-How to Run
-Clone the Repository
-git clone <repository-url>
-Install Dependencies
+The model predicts house prices using multiple property-related features such as:
+
+- Carpet Area
+- Furnishing Status
+- Floor Details
+- Ownership Type
+- Bathroom Count
+- Balcony Count
+- Location
+- Transaction Type
+
+---
+
+## 📈 Evaluation Metrics
+
+The model is evaluated using:
+
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+---
+
+## ▶️ How To Run
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone <your-repository-url>
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Run the Project
+```
+
+### 3️⃣ Run Project
+
+```bash
 python main.py
-Future Improvements
-Hyperparameter tuning
-Streamlit web deployment
-Random Forest comparison
-Model saving using Pickle
-Advanced feature engineering
-Real-time prediction interface
-Author
+```
 
-Aryan Sah
+---
 
-Project Goal
+## 🔮 Future Improvements
 
-The goal of this project is to build a scalable and professional Machine Learning pipeline while understanding real-world data preprocessing, feature engineering, and regression modeling techniques.
+- Streamlit Web App Deployment
+- Hyperparameter Tuning
+- Random Forest Comparison
+- Model Saving with Pickle
+- Real-Time Prediction System
+- Advanced Feature Engineering
+
+---
+
+## 👨‍💻 Author
+
+<b>Aryan Sah</b>
+
+---
+
+<h3 align="center">⭐ If you like this project, consider starring the repository ⭐</h3>
